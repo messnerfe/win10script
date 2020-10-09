@@ -29,13 +29,14 @@ $tweaks = @(
 	### Require administrator privileges ###
 	"RequireAdmin",
   	"CreateRestorePoint",
+
 	### External Program Setup
 	"InstallTitusProgs", #REQUIRED FOR OTHER PROGRAM INSTALLS!
 	"Install7Zip",
 	# "InstallNotepadplusplus",
 	"InstallTeamViewer",
 	"InstallFirefox",
-	
+
 	### Windows Apps
 	"DebloatAll",
 
@@ -2554,6 +2555,12 @@ Function DebloatAll {
 
         #Sponsored Windows 10 AppX Apps
         #Add sponsored/featured apps to remove in the "*AppName*" format
+		"*Amazon*"
+		"*Booking*"
+		"*McAffee*"
+		"*Pinterest*"
+		"*Roblox*"
+		"*Dropbox*"
         "*EclipseManager*"
         "*ActiproSoftwareLLC*"
         "*AdobeSystemsIncorporated.AdobePhotoshopExpress*"
