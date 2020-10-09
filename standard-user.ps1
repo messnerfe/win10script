@@ -36,6 +36,7 @@ $tweaks = @(
 	# "InstallNotepadplusplus",
 	"InstallTeamViewer",
 	"InstallFirefox",
+	"InstallVlc",
 
 	### Windows Apps
 	"DebloatAll",
@@ -230,6 +231,11 @@ Function InstallTeamViewer {
 Function InstallFirefox {
 	Write-Output "Installing Firefox"
 	choco install firefox -y
+}
+
+Function InstallVlc {
+	Write-Output "Installing vlc"
+	choco install vlc -y
 }
 
 ##########
