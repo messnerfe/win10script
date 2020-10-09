@@ -32,7 +32,8 @@ $tweaks = @(
 	### External Program Setup
 	"InstallTitusProgs", #REQUIRED FOR OTHER PROGRAM INSTALLS!
 	"Install7Zip",
-	#"InstallNotepadplusplus",
+	# "InstallNotepadplusplus",
+	"InstallTeamViewer",
 
 	### Windows Apps
 	"DebloatAll",
@@ -219,9 +220,9 @@ Function InstallNotepadplusplus {
 	choco install notepadplusplus -y
 }
 
-Function InstallMediaPlayerClassic {
-	Write-Output "Installing Media Player Classic (VLC Alternative)"
-	choco install mpc-hc -y
+Function InstallTeamViewer {
+	Write-Output "Installing TeamViewer"
+	choco install teamviewer -y
 }
 
 ##########
@@ -2534,7 +2535,7 @@ Function DebloatAll {
         "Microsoft.OneConnect"
         "Microsoft.People"
         "Microsoft.Print3D"
-        "Microsoft.SkypeApp"
+        # "Microsoft.SkypeApp"
         "Microsoft.StorePurchaseApp"
         "Microsoft.Whiteboard"
         "Microsoft.WindowsAlarms"
