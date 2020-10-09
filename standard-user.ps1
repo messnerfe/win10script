@@ -109,7 +109,7 @@ $tweaks = @(
 	"DisableStickyKeys",            # "EnableStickyKeys",
 	"ShowTaskManagerDetails"        # "HideTaskManagerDetails",
 	"ShowFileOperationsDetails",    # "HideFileOperationsDetails",
-	#"EnableFileDeleteConfirm",	# "DisableFileDeleteConfirm",    
+	"EnableFileDeleteConfirm",	# "DisableFileDeleteConfirm",    
 	#"HideTaskbarSearch",
 	"ShowTaskbarSearchBox",      # "ShowTaskbarSearchIcon",
 	"HideTaskView",                 # "ShowTaskView",
